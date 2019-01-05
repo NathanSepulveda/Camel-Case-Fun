@@ -37,7 +37,7 @@ function camelCaser() {
     for (var i = 0; i < str.length*3; i++) {
         if (Number(firstCharacter) === i) {
             alert("No number as first character.");
-            document.getElementById("demo2").innerHTML = "not a good camel candidate";
+            document.getElementById("demo").innerHTML = "not a good camel candidate";
 
             break;
         }  if (firstCharacter === firstCharacter.toUpperCase()) {
@@ -97,6 +97,8 @@ function camelCaser() {
     document.getElementById("demo2").innerHTML = res;
 
 
+
+
     //var buttonChange = button.replace("Click Me to Begin!", "Camelize Me Captain!" );
     //document.getElementById("button").innerHTML = buttonChange;
 
@@ -108,6 +110,10 @@ function camelCaser() {
     for (var i = 0; i < arrayOfSentence.length; i++) {
         newStringOfSentence += arrayOfSentence[i];
     }
+}
+
+function restart() {
+    location.reload();
 }
 
 
