@@ -38,7 +38,7 @@ function camelCaser() {
         if (Number(firstCharacter) === i) {
             alert("No number as first character.");
             break;
-        } else if (firstCharacter === firstCharacter.toUpperCase()) {
+        }  if (firstCharacter === firstCharacter.toUpperCase()) {
             var newFirstCharacter = firstCharacter.toLowerCase();
             str = str.replace(firstCharacter, newFirstCharacter);
             console.log(str);
