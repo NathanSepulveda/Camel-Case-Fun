@@ -34,7 +34,7 @@ function camelCaser() {
 
 
     console.log(str);
-    for (var i = 0; i < str.length; i++) {
+    for (var i = 0; i < str.length*3; i++) {
         if (Number(firstCharacter) === i) {
             alert("No number as first character.");
             break;
