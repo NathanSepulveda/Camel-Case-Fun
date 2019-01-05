@@ -37,6 +37,8 @@ function camelCaser() {
     for (var i = 0; i < str.length*3; i++) {
         if (Number(firstCharacter) === i) {
             alert("No number as first character.");
+            document.getElementById("demo2").innerHTML = "not a good camel candidate";
+
             break;
         }  if (firstCharacter === firstCharacter.toUpperCase()) {
             var newFirstCharacter = firstCharacter.toLowerCase();
