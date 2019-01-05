@@ -1,0 +1,1 @@
+Just having some fun! This is a simple app that turns whatever you type into Camel Case.
